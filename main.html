@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<head>
+<title>WEB Lab6 Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<html>
+<body>
+    <div class=calculator>
+    <table style="width:100%">
+        <tr>
+            <td colspan="5" id="input">0</td>
+        </tr>
+        <tr>
+            <td> <button onclick="pushBtn(this);">MC</button></td>
+            <td> <button onclick="pushBtn(this);">0</button></td>
+            <td> <button onclick="pushBtn(this);">1</button></td>
+            <td> <button onclick="pushBtn(this);">2</button></td>
+            <td> <button onclick="pushBtn(this);">+</button></td>
+        </tr>
+
+        <tr>
+            <td> <button onclick="pushBtn(this);">MS</button></td>
+            <td> <button onclick="pushBtn(this);">3</button></td>
+            <td> <button onclick="pushBtn(this);">4</button></td>
+            <td> <button onclick="pushBtn(this);">5</button></td>
+            <td> <button onclick="pushBtn(this);">-</button></td>
+        </tr> 
+            
+        <tr>
+            <td> <button onclick="pushBtn(this);">MR</button></td>
+            <td> <button onclick="pushBtn(this);">6</button></td>
+            <td> <button onclick="pushBtn(this);">7</button></td>
+            <td> <button onclick="pushBtn(this);">8</button></td>
+            <td> <button onclick="pushBtn(this);">*</button></td>
+        </tr>
+
+        <tr>
+            <td> <button onclick="pushBtn(this);">M+</button></td>
+            <td> <button onclick="pushBtn(this);">9</button></td>
+            <td> <button onclick="pushBtn(this);">+-</button></td>
+            <td> <button id='equalBtn' onclick="pushBtn(this);">=</button></td>
+            <td> <button onclick="pushBtn(this);">/</button></td>
+        </tr>
+
+        <tr>
+            <td> <button onclick="pushBtn(this);">1/x</button></td>
+            <td> <button onclick="pushBtn(this);">.</button></td>
+            <td> <button onclick="pushBtn(this);">x^2</button></td>
+            <td> <button onclick="pushBtn(this);">√</button></td>
+            <td> <button id='cancel' onclick="pushBtn(this);">C</button></td>
+        </tr>        
+    </table>
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

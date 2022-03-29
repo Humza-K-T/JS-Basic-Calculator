@@ -1,0 +1,66 @@
+
+body{
+    background-color: black;
+}
+
+.calculator{
+    width:350px;
+    margin: 120px auto;
+    background: rgb(18, 18, 44);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+button{
+    width: 66px;
+    height:60px;
+    font-size: 28px;
+    background: rgb(139, 21, 47);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border-color: black;
+    box-shadow: 10px;
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+    background: rgb(109, 235, 105);
+}
+
+#cancel{
+    background: lightcoral;
+}
+
+#cancel:hover{
+    background: red;
+}
+
+#equalBtn{
+    background: rgb(187, 219, 43);
+}
+
+#equalBtn:hover{
+    background: green;
+}
+
+#input{
+    background-color: rgb(54, 50, 241);
+    height:80px;
+    color: white;
+    font-size: 30px;
+    vertical-align: bottom;
+    padding-left: 1rem;
+    border-radius: 30px 30px 0 0;
+    padding-bottom: 0.5rem;
+    -webkit-border-radius: 30px 30px 0 0;
+    -moz-border-radius: 30px 30px 0 0;
+    -ms-border-radius: 30px 30px 0 0;
+    -o-border-radius: 30px 30px 0 0;
+}
